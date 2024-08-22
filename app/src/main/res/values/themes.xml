@@ -2,14 +2,14 @@
     <!-- Base application theme. -->
     <!-- Customize your light theme here. -->
     <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    <style name="Base.Theme.RecipesApp.Light" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Base.Theme.EnglishWordsApp" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <item name="android:statusBarColor">#F4FAFF</item>
-        <item name="android:navigationBarColor">#F4FAFF</item>
+        <item name="android:statusBarColor">@color/main_background_color</item>
+        <item name="android:navigationBarColor">@color/main_background_color</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
 
     </style>
 
-    <style name="Theme.RecipesApp.Light" parent="Base.Theme.RecipesApp.Light" />
+    <style name="Theme.EnglishWordsApp" parent="Base.Theme.EnglishWordsApp" />
 </resources>

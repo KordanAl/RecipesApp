@@ -13,11 +13,10 @@
     <!-- Расстояние между кнопками -->
     <dimen name="button_spacing">4dp</dimen>
 
-    <!-- Ширина кнопок -->
-    <dimen name="button_width">162dp</dimen>
-
     <!-- Высота кнопок -->
-    <dimen name="button_height">36dp</dimen>
+    <dimen name="bottom_button_height">36dp</dimen>
+
+    <dimen name="bottom_button_margin">16dp</dimen>
 
     <!-- Размер иконки -->
     <dimen name="icon_size">24dp</dimen>
