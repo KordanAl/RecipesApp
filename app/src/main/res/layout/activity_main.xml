@@ -20,10 +20,11 @@
         <!-- Кнопка Категории -->
         <Button
             android:id="@+id/favoritesButton"
-            style="@style/StyleTitle14"
-            android:layout_height="@dimen/bottom_button_height"
+            style="@style/StyleNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/bottom_button_margin"
-            android:background="@drawable/button_footer"
+            android:paddingHorizontal="@dimen/main_spacing_button_pad"
             android:text="@string/categories_text"
             app:backgroundTint="@color/category_color"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,11 +35,11 @@
         <!-- Кнопка Избранное -->
         <Button
             android:id="@+id/categoryButton"
-            style="@style/StyleTitle14"
-            android:layout_height="@dimen/bottom_button_height"
+            style="@style/StyleNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/bottom_button_margin"
             android:layout_marginStart="@dimen/button_spacing"
-            android:background="@drawable/button_footer"
             android:text="@string/favorites_text"
             app:backgroundTint="@color/favorites_color"
             app:icon="@drawable/ic_heart_empty"

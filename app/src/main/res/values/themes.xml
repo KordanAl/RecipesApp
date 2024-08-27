@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <!-- Customize your light theme here. -->
     <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    <style name="Base.Theme.EnglishWordsApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.RecipesApp" parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="android:statusBarColor">@color/main_background_color</item>
         <item name="android:navigationBarColor">@color/main_background_color</item>
@@ -11,5 +11,5 @@
 
     </style>
 
-    <style name="Theme.EnglishWordsApp" parent="Base.Theme.EnglishWordsApp" />
+    <style name="Theme.RecipesApp" parent="Base.Theme.RecipesApp" />
 </resources>

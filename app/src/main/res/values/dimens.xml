@@ -2,7 +2,7 @@
 
 <resources>
     <!-- Основной отступ -->
-    <dimen name="main_margin">56dp</dimen>
+    <dimen name="main_margin">8dp</dimen>
 
     <!-- Половина основного отступа -->
     <dimen name="half_main_margin">28dp</dimen>
@@ -13,13 +13,15 @@
     <!-- Расстояние между кнопками -->
     <dimen name="button_spacing">4dp</dimen>
 
-    <!-- Высота кнопок -->
-    <dimen name="bottom_button_height">36dp</dimen>
-
+    <!-- Отступы кнопок -->
     <dimen name="bottom_button_margin">16dp</dimen>
 
     <!-- Размер иконки -->
     <dimen name="icon_size">24dp</dimen>
+
+    <!-- Размер иконки -->
+    <dimen name="main_spacing_button_pad">40dp</dimen>
+
 
 </resources>
 
