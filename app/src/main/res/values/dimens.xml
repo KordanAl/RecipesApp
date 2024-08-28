@@ -7,6 +7,12 @@
     <!-- Половина основного отступа -->
     <dimen name="half_main_margin">28dp</dimen>
 
+    <!-- Текст кнопок навигации -->
+    <dimen name="main_text_size_nav_button">14sp</dimen>
+
+    <!-- Радиус скругления кнопок навигации -->
+    <dimen name="main_radius_nav_button">8dp</dimen>
+
     <!-- Внутренний отступ кнопок -->
     <dimen name="button_padding">10dp</dimen>
 
